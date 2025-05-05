@@ -62,11 +62,8 @@ function editBtn(index) {
     let editContainer = li.querySelector('.edit-container');
     let userName = li.querySelector('.user-name');
 
-    // Hide the user name and show the input for editing
     userName.style.display = 'none';
     editContainer.style.display = 'inline';
-
-    // Focus on the input field for easier editing
     let editInput = li.querySelector('.edit-input');
     editInput.focus();
 }
